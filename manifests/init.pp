@@ -15,8 +15,8 @@
 #   A description of the third parameter
 #
 class workshop_renovate_module (
-  Integer $param1   = 1337,
-  Boolean $param2   = true,
+  String[1] $param1   = 'e1337e',
+  String[1] $param2   = 'Wahrheit',
   String[1] $param3 = 'default'
 ) {
   file { '/tmp/renovate_module.txt':
